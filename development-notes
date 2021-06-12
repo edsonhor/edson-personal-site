@@ -1,0 +1,7 @@
+This command will run the container and let you explore it. The code should be in /source for hugo to catch it
+docker run  -it --entrypoint "/bin/sh" edson_site
+
+docker run --rm -it -p 1313:1313  edson_site server
+
+to build the site run 
+docker build -t edson_site .

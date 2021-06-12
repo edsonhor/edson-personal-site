@@ -4,7 +4,7 @@ date = 2021-06-06T00:05:32-04:00
 images = []
 tags = []
 categories = []
-draft = true
+draft = false
 +++
 
 ## Introduction
